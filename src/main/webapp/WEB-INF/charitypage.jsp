@@ -55,7 +55,7 @@
     <td><%=st.getDiscountedPrice()%></td>
     <td>
    <div class=buttons>
-            <button class=item name="stockupd" value="<%=st.getItemId() + "_" + st.getRetailerId()+ "_" + st.getExpiryDateStr()%>" type="submit">Claim</button>
+            <button class=item name="inventoryupd" value="<%=st.getItemId() + "_" + st.getRetailerId()+ "_" + st.getExpiryDateStr()%>" type="submit">Claim</button>
             
             
         </div>
